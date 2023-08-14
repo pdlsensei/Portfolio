@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: rgb(2, 2, 41);
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1fr 1fr;
+    height: 80px;
+    background-color: rgb(73, 4, 123);
+}
+nav ul{
+    display: flex;
+    margin-left: 20px;
+}
+nav ul li{
+    list-style:none;
+    margin-left:20px;
+    margin-right: 6px;
+    font-size: 16px;
+
+}
+main hr{
+    border: 0;
+    height: 0.6px;
+    background: rgb(126, 126, 255);
+    width: 95%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    /* margin: auto; */
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+nav ul li a:hover{
+   color: rgb(161, 161, 254);
+}
+.left{
+    font-size: 1.5rem;
+}
+#element{
+    color: rgb(120, 120, 255);
+}
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top:110px;
+    margin-bottom:90px;
+    align-items: center;
+}
+.first-section .left-section{
+    color:white;
+    width: 40%;
+    font-size: 2rem;
+
+}
+.first-section .right-section{
+    color: green;
+    width: 30%;
+}
+.right-section .dev-pic{
+    width: 80%;
+}
+
+.name{
+    color: rgb(201, 48, 201);
+}
+.second-section {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+}
+.second-section h1{
+    font-size: 1.9rem;
+}
+.text-gray{
+    color: rgb(174, 173, 173);
+}
+.second-section .vertical{
+    height: 40px;
+    width: 1px;
+    background-color: white;
+}
+.second-section .box{
+    margin:56px 0;
+    background-color: white;
+    width: 80vw;
+    height: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+.second-section .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+}
+.vertical .img-top{
+    width: 50px;
+    position: relative;
+    top: -32px;
+    left: -28px;
+}
+.vertical .exp{
+    width: 200px;
+    position: relative;
+    top: 49px;
+    left: -69px;
+}
+.vertical .title{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: rgb(158, 158, 162);
+}
+.vertical .discription{
+    font-size:1em;
+    color: rgb(103, 103, 146);
+}
+footer{
+    height: 50px;
+    margin-top: 30px;
+}
+.footer{
+    background-color: rgb(162, 162, 208);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .footer-item{
+    text-decoration: none;
+}
